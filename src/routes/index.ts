@@ -1,5 +1,6 @@
 // Importing the 'join' function from 'node:path' (for path manipulation, if needed)
 import { join } from 'node:path';
+import { jwtVerify, SignJWT } from 'jose/dist/browser';
 
 import { getBodyBuffer } from '@/utils/body';
 import {
